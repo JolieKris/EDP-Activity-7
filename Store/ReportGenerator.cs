@@ -211,7 +211,7 @@ namespace Store
                     {
                         FileInfo file = new FileInfo(saveFileDialog.FileName);
                         workbook.SaveAs(file);
-                        MessageBox.Show("Excel file generated successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Excel file successfully generated.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
                 }
